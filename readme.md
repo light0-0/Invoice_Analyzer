@@ -16,13 +16,10 @@ cd your-project
 python3.10 -m venv env
 
 3. Activate the virtual environment:
-On Windows:
-
-.\env\Scripts\activate
-
-On macOS and Linux:
-
-source env/bin/activate
+    On Windows:
+        .\env\Scripts\activate
+    On macOS and Linux:
+        source env/bin/activate
 
 4. Install the required packages:
 
