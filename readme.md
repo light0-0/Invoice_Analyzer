@@ -22,8 +22,7 @@ python3.10 -m venv env
         source env/bin/activate
 
 4. Install the required packages:
-
-pip install -r requirements.txt
+    * pip install -r requirements.txt
 
 # Usage
 1.Once the environment is set up and the dependencies are installed, run the Streamlit app:
