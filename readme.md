@@ -13,8 +13,7 @@ Virtualenv
 git clone https://github.com/yourusername/your-project.git
 cd your-project
 2. Create a virtual environment:
-
- python3.10 -m venv env
+python3.10 -m venv env
 
 3. Activate the virtual environment:
 On Windows:
