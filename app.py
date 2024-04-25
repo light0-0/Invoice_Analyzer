@@ -11,7 +11,7 @@ gen.configure(api_key=os.getenv("key"))
 
 def get_gemeni_resposne(input,image,prompt):
     model = gen.GenerativeModel('gemini-pro-vision')
-    response = model.generate_content([input],image[0],prompt)
+    response = model.generate_content([input,image[0],prompt])
     return response.text
 
 def input_image_setup(uploaded_file):
